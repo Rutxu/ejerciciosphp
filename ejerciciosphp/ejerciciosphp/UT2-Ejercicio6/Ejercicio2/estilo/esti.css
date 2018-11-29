@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+.cuadro{
+  width:45%;
+  background-color:#ADEAEA;
+  margin:0 auto;
+  padding-right: 8px;
+  padding-left: 8px;
+  padding-top:1px;
+  padding-bottom:6px;
+}
+
+fieldset{
+	border-color:blue;
+}
+legend{
+	border:2px solid blue;
+	background-color:white;
+}
+h3{
+  color:blue;
+  diplay:block;
+}
+
+table{
+  border:2px solid blue;
+  margin-bottom:25px;
+  background-color:white;
+}
+
+th{
+	background-color:blue;
+	color:white;
+}
+td{
+  text-align:left;
+  background-color:#ADEAEA;
+}
+
+.rojo{
+  color:red;
+}
+
+.verde{
+  color:green;
+}
+
+button{
+	float:right;
+}

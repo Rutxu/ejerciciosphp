@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ejercicio 4</title>
+    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="estilo/estilo2.css" media="screen"/>
+</head>
+<body>
+    <div class="cuadro">
+    <h3>Convertidor de temperaturas Celsius/Fahrenheit - Formulario</h3>
+    <form action="form.php" method="post">
+        Escribe una temperatura en grados Celsius o Fahrenheit y la convertirá a la otra unidad (Fahrenheit o Celsius): <br><br>
+        <table>
+            <tr>
+                <th>Temperatura: </th>
+                <td><input type="number" name="tem" value='' /></td>
+                <td><select name="unidad">
+                        <option value="Celsius" selected="selected">Celsius</option>
+                        <option value="Fahrenheit">Fahrenheit</option>
+                    </select>
+                </td>
+            </tr>
+        </table><br>
+        <button type="submit" name="enviar">Escribir</button>
+        <button type="reset" name="borrar">Borrar</button>
+      </form>
+    </div>
+</body>
+</html>

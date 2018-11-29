@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+body{
+	font-family:"Arial";
+}
+.cuadro{
+	border:1px solid blue;
+	width:70%;
+}
+h1{
+	color:blue;
+}
+
+table{
+	background-color:grey;
+	 border-collapse: collapse;
+}
+
+th,td{
+	border: 2px solid white;
+	padding: 2px;
+}
+
+th{
+	background-color:blue;
+	color: white;
+	text-align:left;
+}

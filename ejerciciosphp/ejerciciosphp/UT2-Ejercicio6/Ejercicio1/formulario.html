@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ejercicio 1</title>
+    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="estilo/esti.css" media="screen"/>
+</head>
+<body>
+    <div class="cuadro">
+    <h3>Lista de precios</h3>
+    <table>
+    	<tr>
+    		<th>Cantidad</th>
+    		<th>Precio Unidad</th>
+    	</tr>
+    	<tr>
+    		<td>Menos de 10</td>
+    		<td>2€</td>
+    	</tr>
+    	<tr>
+    		<td>Entre 10 y 30</td>
+    		<td>1,5€</td>
+    	</tr>
+    	<tr>
+    		<td>Más de 30</td>
+    		<td>1€</td>
+    	</tr>
+    </table>
+    <p>Seleccione la cantidad a pedir según nuestras tarifas: </p>
+  	<form method="POST" action="form.php"> 
+  	<fieldset>
+  		<legend>Datos personales</legend>
+    	<p>Número de cuadernos: <input type="text" name="cant" value="0">
+    	<button type="submit">Enviar</button></p>
+  	</fieldset>
+  	</form> 
+  	</div>
+</body>
+</html>

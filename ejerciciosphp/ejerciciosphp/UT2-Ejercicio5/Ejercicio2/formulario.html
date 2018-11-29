@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ejercicio 2</title>
+    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="estilo/estilo.css" media="screen"/>
+</head>
+<body>
+    <div class="cuadro">
+    <h3>Tabla numerada - Formulario</h3>
+    <form action="form.php" method="post">
+        <p>Escriba dos números y dibujaré una tabla con el número de columnas (menor o igual que 10)
+        que indique y con  las primeras celdas numeradas (numero entero)</p>
+        <table>
+            <tr>
+                <th>Número de celdas numeradas: </th>
+                <td><input type="number" name="n" value='' /></td>
+            </tr>
+            <tr>
+                <th>Número de columnas: </th>
+                <td><input type="number" name="col" value=''/></td>
+            </tr>
+        </table><br>
+        <button type="submit" name="enviar">Escribir</button>
+        <button type="reset" name="borrar">Borrar</button>
+    </form>
+    </div>
+</body>
+</html>

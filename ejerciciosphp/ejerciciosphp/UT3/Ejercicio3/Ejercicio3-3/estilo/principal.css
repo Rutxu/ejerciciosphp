@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+body{
+	font-family:"Arial";
+}
+.cuadro{
+	border:1px solid blue;
+	width:40%;
+}
+h1{
+	color:blue;
+}
+
+table{
+	margin-bottom:50px;
+}

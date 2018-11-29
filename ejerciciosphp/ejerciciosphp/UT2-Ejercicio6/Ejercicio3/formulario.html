@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ejercicio 3</title>
+    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="estilo/estilo.css" media="screen"/>
+</head>
+<body>
+    <div class="cuadro">
+    <h4>Campos Obligatorios son seguidos por *</h4>
+  	<form method="POST" action="accion.php"> 
+  	<fieldset class = "form">
+  		<legend>Datos personales</legend>
+  		 <p>Escriba los datos siguientes: </p>
+  		<table>
+  			<tr>
+  				<th>Nombre: </th>
+  				<th>Apellidos: </th>
+  				<th>Edad: </th>
+  				<th></th>
+  				<th></th>
+  			</tr>
+  			<tr>
+  				<td><input type="text" name="nom" required="required"/>*</td>
+  				<td><input type="text" name="ape" required="required"/>*</td>
+  				<td>
+  					<select name="edad">
+  						<option></option>
+                        <option value="men20">Menos de 20 años</option>
+                        <option value="20e39">Entre 20 y 39 años</option>
+                        <option value="40e59">Entre 40 y 59 años</option>
+                        <option value="mas60">60 años o más</option>
+                    </select>
+               	</td>
+  			</tr>
+  			<tr>
+  				<th>Peso:</th>
+  				<th>Sexo:</th>
+  				<th>Estado Civil:</th>
+  			</tr>
+  			<tr>
+  				<td><input type="text" name="peso" size="4"/>kg</td>
+  				<td>
+  					<input type="radio" name="sexo" value="hombre" /> Hombre
+	    			<input type="radio" name="sexo" value="mujer" /> Mujer
+  				</td>
+  				<td>
+  					<input type="radio" name="ec" value="soltero" />Soltero
+	    			<input type="radio" name="ec" value="casado" />Casado
+  				</td>
+  				<td>
+  					<input type="radio" name="ec" value="otro" />Otro
+  				</td>
+  			</tr>
+  			<tr>
+  				<th rowspan="2">Aficciones:</th>
+  				<td><input type="checkbox" name="aficion[]" value="c" />Cine</td>
+  				<td><input type="checkbox" name="aficion[]" value="l" />Literatura</td>
+  				<td></td>
+  				<td><input type="checkbox" name="aficion[]" value="t" />Tebeos</td>
+  			</tr>
+  			<tr>
+  				<td><input type="checkbox" name="aficion[]" value="d" />Deporte</td>
+  				<td><input type="checkbox" name="aficion[]" value="m" />Música</td>
+  				<td></td>
+  				<td><input type="checkbox" name="aficion[]" value="tv" />Televisión</td>
+  			</tr>
+  		</table>
+    	<button type="reset" name="borrar">Borrar</button>
+    	<button type="submit">Enviar</button>
+  	</fieldset>
+  	</form> 
+  	</div>
+</body>
+</html>

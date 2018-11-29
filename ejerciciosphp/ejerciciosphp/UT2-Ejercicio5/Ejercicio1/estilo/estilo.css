@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+.cuadro{
+  width:30%;
+  background-color:#ADEAEA;
+  margin:0 auto;
+  padding-right: 8px;
+  padding-left: 8px;
+  padding-top:1px;
+  padding-bottom:6px;
+}
+
+h3{
+  color:blue;
+  diplay:block;
+  border: 2px solid blue;
+  text-align:center;
+}
